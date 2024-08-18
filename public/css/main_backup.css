@@ -1,0 +1,101 @@
+body {
+    background-color: #FBFBFB;
+}
+
+.navbars {
+    display: flex;
+    flex-direction: row;
+    background-color: #CD202E;
+    color: #F5F5F5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 101;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px 1px;
+}
+
+.navbars-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.navbars-nav i {
+    font-size: 1.4rem;
+    margin-left: 1.3rem;
+}
+
+.logo {
+    margin-top: 0.2rem;
+    height: 60px;
+    padding: 10px;
+}
+
+.navbars__title {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.navs-right {
+    margin-left: auto;
+}
+
+#container-quality {
+    position: relative;
+    height: 360px;
+}
+
+
+/* #chartQuality {
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+#text-quality {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#persen-quality {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1DB74E;
+}
+
+#point-quality {
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+#container-accuracy {
+    position: relative;
+    height: 360px;
+}
+
+#text-accuracy {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#persen-accuracy {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1DB74E;
+}
+
+#point-accuracy {
+    margin-top: 8px;
+    font-weight: 700;
+}
